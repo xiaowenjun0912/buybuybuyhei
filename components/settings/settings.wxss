@@ -1,0 +1,26 @@
+/* components/settings/settings.wxss */
+
+.settings {
+  width: 750rpx;
+  height: 100rpx;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0rpx 30rpx;
+  box-sizing: border-box;
+}
+
+.settings .title{
+  font-size: 36rpx;
+}
+
+.settings .date{
+  font-size: 28rpx;
+  color: #999999;
+}
+
+.settings .arrow{
+  width: 40rpx;
+  height: 40rpx;
+}

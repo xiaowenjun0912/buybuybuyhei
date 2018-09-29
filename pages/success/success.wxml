@@ -1,0 +1,17 @@
+<!--pages/success/success.wxml-->
+<!-- <text>pages/success/success.wxml</text> -->
+ <view class="top">
+    <view class="ten" hover-class="none" hover-stop-propagation="false">刷脸认证</view>
+  </view>
+   <icon class="gou" type="success" size="120" color="#17a488">
+         
+     </icon>
+     <view class="apply " hover-class="none" hover-stop-propagation="false">
+         报名成功
+     </view>
+     <view class="applyInfo " hover-class="none" hover-stop-propagation="false">
+         你的报名信息已成功提交审核!
+     </view>
+
+    <button  class="mynext" bindtap="toMy">查看报名信息</button>
+    

@@ -1,0 +1,34 @@
+<!-- pages/detail/detail.wxml -->
+<!-- <text>pages/detail/detail.wxml</text> -->
+<!--  -->
+<view class="top">
+  <view class="ten" hover-class="none" hover-stop-propagation="false">报名详情</view>
+</view>
+<view class="content" hover-class="none" hover-stop-propagation="false">
+  <view class="needLook" hover-class="none" hover-stop-propagation="false">待审核</view>
+  <view class="active" selectable="false" space="false" decode="false">招商活动报名</view>
+  <view class="activeTitle" selectable="false" space="false" decode="false">活动主题</view>
+</view>
+<view class="botbox" hover-class="none" hover-stop-propagation="false">
+  <view class="box" hover-class="none" hover-stop-propagation="false">
+    <view class="time" hover-class="none" hover-stop-propagation="false">
+      活动时间:2018-09-09 19:00
+    </view>
+    <view class="add" hover-class="none" hover-stop-propagation="false">活动地址:深圳超盟科技有限公司</view>
+    <view class="nextDetail" hover-class="none" hover-stop-propagation="false">
+      <view class="lis" hover-class="none" hover-stop-propagation="false">注意事项:</view>
+      <view class="lis1" hover-class="none" hover-stop-propagation="false">· 一号注意事项</view>
+      <view class="lis2" hover-class="none" hover-stop-propagation="false">
+        · 二号注意事项,深圳超盟科技有限公司
+      </view>
+      <view class="lis3" hover-class="none" hover-stop-propagation="false">
+        · 三号注意事项,深圳超盟科技有限公司
+      </view>
+    </view>
+    <view class="recode" hover-class="none" hover-stop-propagation="false">
+    </view>
+    <view class="tick" hover-class="none" hover-stop-propagation="false">
+      专属门票二维码
+    </view>
+  </view>
+</view>

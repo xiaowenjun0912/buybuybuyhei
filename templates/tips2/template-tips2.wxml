@@ -1,0 +1,6 @@
+<template name="tips2">
+  <view data-id="{{id}}" bindtap="more" class="tips2">
+    <text>{{title}}</text>
+    <image src="{{img_url}}"></image>
+  </view>
+</template>

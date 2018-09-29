@@ -1,0 +1,19 @@
+<!-- pages/index/index.wxml -->
+<!-- <text>pages/index/index.wxml</text> -->
+<view>
+  <view class="top">
+    <view class="ten" hover-class="none" hover-stop-propagation="false">10月发布会邀约</view>
+  </view>
+  <view class="hot">10月份发布会邀请介绍index</view>
+  
+  <view class="base">
+    <navigator url="/pages/course/course" class="left">
+      <icon class="iconfont icon-Sign" size="22" color=""></icon>
+      <text class="" selectable="false" space="false" decode="false">我要报名</text>
+    </navigator>
+    <navigator url="/pages/my/my" class="right">
+      <icon class="iconfont icon-me" size="22" color=""></icon>
+      <text class="" selectable="false" space="false" decode="false">我的</text>
+    </navigator>
+  </view>
+</view>

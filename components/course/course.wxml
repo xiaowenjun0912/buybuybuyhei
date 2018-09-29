@@ -1,0 +1,12 @@
+<!--components/course/course.wxml-->
+<view class="course">
+  <image src="{{course.img_url}}"></image>
+  <view class="title">
+    <text class="title1">{{course.title}}</text>
+    <text class="subtitle">{{course.subtitle}}</text>
+    <text class="subtitle">{{course.id}}</text>
+  </view>
+  <view data-type="view" bindtap='clickCourse' data-id="{{course.id}}" data-is-full="{{course.isFull}}" data-title="{{course.title}}" style="background-color:{{course.isFull?'#CACACA':'#FF547C'}};" class="tips">
+    <text data-type="text">{{course.isFull ? '人数满额' : '了解课程'}}</text>
+  </view>
+</view>

@@ -1,0 +1,36 @@
+<view class="top">
+  <view class="ten" hover-class="none" hover-stop-propagation="false">报名信息省份</view>
+</view>
+<!-- 中间 -->
+<view class="main" hover-class="none" hover-stop-propagation="false">
+  <view class="cityLife" hover-class="none" hover-stop-propagation="false">省份</view>
+  <view class="cityRight" hover-class="none" hover-stop-propagation="false">
+    <text class="city-shi" selectable="false" space="false" decode="false">城市</text>
+  </view>
+</view>
+<!-- content -->
+<view class="boxLeft" hover-class="none" hover-stop-propagation="false">
+  <view class="left" wx:for="{{cateList}}" wx:key="{{item.id}}">
+    <scroll-view scroll-y="true" style="height:100%">
+      <view  bindtap="changeTab" data-index="{{item.id}}"  data-name="{{item.name}}" class="{{num==item.id?'active':''}} myItem">
+        {{item.name}}
+       <view class="wei active" hover-class="none" hover-stop-propagation="false">
+       </view>
+      </view>
+    </scroll-view>
+  </view>
+</view>
+<!-- city -->
+<view class="boxRight" hover-class="none" hover-stop-propagation="false">
+    <view class="right" wx:for="{{myList}}" wx:if="{{isShow==''}}" hover-class="none" hover-stop-propagation="false">
+      <view class="myShi" hover-class="none" hover-stop-propagation="false" bindtap="changeShi" data-index="{{item.id}}" data-name="{{item.name}}">
+        {{item.name}}
+      </view>
+    </view>
+  <!-- qu -->
+  <view class="right" wx:for="{{twoList}}" wx:if="{{quShow==''}}" hover-class="none" hover-stop-propagation="false">
+    <view class="{{numQu==item.id?'active':''}} myShi" hover-stop-propagation="false" bindtap="changColor" data-index="{{item.id}}">
+      {{item.name}}
+    </view>
+  </view>
+</view>

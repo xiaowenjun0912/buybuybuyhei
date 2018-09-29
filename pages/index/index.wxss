@@ -1,0 +1,56 @@
+/* pages/index/index.wxss */
+/* 头部 */
+.top{
+  width: 750rpx;
+  height: 88rpx;
+  background-color: #f2f2f2;
+}
+.ten{
+  text-align: center;
+  line-height: 88rpx;
+}
+/* 中间 */
+.hot{
+    width: 750rpx;
+    height: 400rpx;
+    font-size: 34rpx;
+    display: block;
+    text-align: center;
+    line-height: 400rpx;
+  }
+
+  /* 底部 */
+  page{
+    position: relative;
+    height: 100%;
+  }
+
+  .base{
+    width: 750rpx;
+    height: 100rpx;
+    /* line-height: 100rpx; */
+    background-color: #fff;
+    display: flex;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    font-size: 26rpx;
+  }
+  .base >.left{
+    display: flex;
+    flex-direction: column;
+    width: 375rpx;
+    background-color: #fff;
+    color: #1abc9c;
+    border:none;
+    text-align: center;
+  }
+  .base >.right{
+    display: flex;
+    flex-direction: column;
+    width: 375rpx;
+    background-color: #fff;
+    color: #818181;
+    border:none;
+    text-align: center;
+  }

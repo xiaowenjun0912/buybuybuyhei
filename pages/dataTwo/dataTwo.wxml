@@ -1,0 +1,17 @@
+<view class="top">
+  <view class="ten" hover-class="none" hover-stop-propagation="false">报名信息职业</view>
+</view>
+<!-- 题目 -->
+<view class="title" hover-class="none" hover-stop-propagation="false">
+  <text class="category" selectable="false" space="false" decode="false">行业类别</text>
+</view>
+<!-- 下面的 -->
+<view class="content">
+  <view class="{{num==item.id?'active':''}} myBox" hover-class="none" hover-stop-propagation="false" data-index="{{item.id}}" bindtap="changeTab" data-name="{{item.value}}" wx:for="{{twoList}}">
+        {{item.value}}
+  </view>
+</view>
+<view class="butbox" hover-class="none" hover-stop-propagation="false">
+  <view class="myBut" hover-class="none" hover-stop-propagation="false" bindtap="toCourse">确定</view>
+  <view class="whitebox" hover-class="none" hover-stop-propagation="false"></view>
+</view>

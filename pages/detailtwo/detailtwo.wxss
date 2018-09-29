@@ -1,0 +1,139 @@
+/* pages/detailtwo/detailtwo.wxss *//* pages/detail/detail.wxss */
+page{
+  position: relative;
+  /* height: 100%; */
+}
+.top{
+    width: 750rpx;
+    height: 88rpx;
+    background-color: #f2f2f2;
+  }
+  .ten{
+    text-align: center;
+    height: 88rpx;
+
+    line-height: 90rpx;
+    font-size: 34rpx;
+  }
+  page{
+      background-color:black;
+  }
+  .needLook{
+    width: 140rpx;
+    height: 48rpx;
+    color: #fff;
+    text-align: center;
+    line-height: 48rpx;
+    font-size: 24rpx;
+    background-color: #ffb502;
+    position: absolute;
+    right: 0;
+    /* float: right; */
+    margin-top: 42rpx;
+    border-radius: 32rpx;
+    top: -53rpx;
+    transform: translateX(18rpx);
+  }
+  .content{
+    /* width: 750rpx; */
+    /* height: 1020rpx; */
+    position: relative;
+  }
+  .active{
+    /* position: absolute; */
+    font-size: 36rpx;
+    /* top: 206rpx; */
+    /* left: 264rpx; */
+    color: #fff;
+    /* z-index: 5; */
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 77rpx;
+
+  }
+  .activeTitle{
+    font-size: 68rpx;
+    color: #fff;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 39rpx;
+    margin-bottom: 63rpx;
+  }
+  .box{
+    background-color: #fff;
+    width: 646rpx;
+    height: 1000rpx;
+    margin: 0 auto;
+    border-radius: 10rpx;
+    padding-top: 53rpx;
+    padding-left: 34rpx;
+    padding-right: 32rpx;
+    box-sizing: border-box;
+
+  }
+  .time{
+    width: 580rpx;
+    height: 88rpx;
+    border: 1rpx solid #a3a6db;
+    text-align: left;
+    line-height: 88rpx;
+    padding-left: 23rpx;
+    box-sizing: border-box;
+    font-size: 26rpx;
+    background-color: #f2f5ff;
+    border-radius: 10rpx;
+  }
+  .add{
+    width: 580rpx;
+    height: 88rpx;
+    border: 2rpx solid #a3a6db;
+    text-align: left;
+    line-height: 88rpx;
+    border-radius: 10rpx;
+    padding-left: 23rpx;
+    box-sizing: border-box;
+    font-size: 26rpx;
+    margin-top: 24rpx;
+    background-color: #f2f5ff;
+
+  }
+  .nextDetail{
+    border-radius: 10rpx;
+    width: 580rpx;
+    height: 380rpx;
+    border: 2rpx solid #a3a6db;
+    box-sizing: border-box;
+    font-size: 27rpx;
+    color: #d9dce4;
+    margin-top: 24rpx;
+    padding-left: 23rpx;
+    padding-top: 30rpx;
+    padding-right: 39rpx;
+    background-color: #f2f5ff;
+
+  }
+  .lis1{
+    margin-top: 41rpx;
+  }
+  .lis2{
+    margin-top: 27rpx;
+  }
+  .lis3{
+    margin-top: 27rpx;
+  }
+  .botbox{
+    width: 100%;
+    height: 1077rpx;
+  }
+  .recode{
+    width: 174rpx;
+    height: 174rpx;
+    margin: 0 auto;
+    margin-top: 78rpx;
+    border: 1px solid red;
+  }
+  .tick{
+    font-size: 25rpx;
+    text-align: center;
+    margin-top: 25rpx;
+  }

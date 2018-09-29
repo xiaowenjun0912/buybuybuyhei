@@ -1,0 +1,10 @@
+<template name="course">
+  <view style="background-color:{{color}};" class="course">
+    <view>
+      <text class="title">{{title}}</text>
+    </view>
+    <view>
+      <text class="subtitle">{{subtitle}}</text>
+    </view>
+  </view>
+</template>

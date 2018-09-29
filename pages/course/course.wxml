@@ -1,0 +1,53 @@
+<!-- pages/course/course.wxml -->
+<view class="top">
+  <view class="ten" hover-class="none" hover-stop-propagation="false">报名信息</view>
+</view>
+<form bindsubmit="formSubmit">
+  <view class="myform">
+    <view class="section"  bindtap="toDataone">
+      <view class="section__title">省市</view>
+      <text class="myCity" selectable="false" space="false" decode="false">
+      </text>
+      <!-- <input type="text" class="" value="" ></input> -->
+      <view class="address my" hover-class="none" hover-stop-propagation="false">
+        {{mySheng}}{{myShi}}
+      </view>
+      <icon class="iconfont icon-arrow "  size="23" color=""></icon>
+    </view>
+  </view>
+  <view class="myform">
+    <view class="section">
+      <view class="section__title">姓名</view>
+      <input name="name" class="int" placeholder="点击输入姓名" />
+    </view>
+  </view>
+  <view class="section" bindtap="toDatatwo">
+    <view class="section__title">行业类别</view>
+    <view class="theJob" hover-class="none" hover-stop-propagation="false">
+      {{myJob}}
+    </view>
+      <icon class="iconfont icon-arrow "  size="23" color=""></icon>
+
+  </view>
+  <view class="section">
+    <view class="section__title">手机</view>
+    <input name="phone" class="int" type="number" maxlength="11" bindinput="inputPhoneNum" placeholder="点击输入手机号" bindblur="turnBlue" />
+  </view>
+  <view class="section">
+    <view class="section__title">企业</view>
+    <input name="company" class="int" placeholder="点击输入企业名称" />
+  </view>
+  <view class="section">
+    <view class="section__title">职位</view>
+    <input name="label" class="int" placeholder="点击输入职位" />
+  </view>
+  <view class="section">
+    <view class="section__title" id="people">介绍人</view>
+    <input name="job" class="int" placeholder="点击输入介绍人" bindinput="inputjob" />
+  </view>
+  <view class="btn-area">
+    <view formType="submit" wx:if="{{isShow!=''}}" class="mynext" >下一步</view>
+    <!-- bindtap="myNext" -->
+    <view class="yournext" wx:if="{{isShow==''}}" bindtap="setTitle">下一步</view>
+  </view>
+</form>

@@ -1,0 +1,7 @@
+<!--components/my-input/my-input.wxml-->
+<view class="my-input">
+  <input type="number" value="{{myInput.type==='mobile'?13612345678:''}}" bindblur="onInputBlur" placeholder="{{myInput.placeholder}}" auto-focus="{{myInput.autoFocus}}"/>
+  <block wx:if="{{myInput.isVcode}}">
+    <text style="color:{{isGettingVCode?'#999999':'#000000'}};" catchtap='getVcode' class="vcode">{{title}}</text>
+  </block>
+</view>

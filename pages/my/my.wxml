@@ -1,0 +1,62 @@
+<view class="top">
+        <view class="ten" hover-class="none" hover-stop-propagation="false">我的</view>
+</view>
+<!-- 内容 -->
+<view class="content">
+        <text class="myNumber" selectable="false" space="false" decode="false">158****2359</text>
+        <image class="myPic" src="../../images/客户的头像.png"></image>
+        <view class="mytoggle">
+                <view class="tab-bar">
+                        <view decode="nbsp" bindtap="changeTab" data-index="0" class="item {{index==0?'active':''}}">
+                                待审核(1)
+                        </view>
+                        <view bindtap="changeTab" data-index="1" class="item {{index==1?'active':''}}">
+                                已审核
+                        </view>
+                        <view bindtap="changeTab" data-index="2" class="item {{index==2?'active':''}}">
+                                已签到
+                        </view>
+                </view>
+        </view>
+</view>
+<view class="tab-content">
+        <!-- 区域 -->
+        <view class="item check" wx:if="{{index==0}}">
+                <view class="goFor" hover-class="none" hover-stop-propagation="false">
+                        <image class="myActivitypic" src="../../images/我的活动图片.png"></image>
+                        <view class="mytext">
+                                <text class="mytitle">招商活动报名(活动标题)</text>
+                                <text class="smtitle">活动的时间和地点</text>
+                        </view>
+                </view>
+                 <view class="goFor" hover-class="none" hover-stop-propagation="false">
+                        <image class="myActivitypic" src="../../images/我的活动图片.png"></image>
+                        <view class="mytext">
+                                <text class="mytitle">招商活动报名(活动标题)</text>
+                                <text class="smtitle">活动的时间和地点</text>
+                        </view>
+                </view>
+                 <view class="goFor" hover-class="none" hover-stop-propagation="false">
+                        <image class="myActivitypic" src="../../images/我的活动图片.png"></image>
+                        <view class="mytext">
+                                <text class="mytitle">招商活动报名(活动标题)</text>
+                                <text class="smtitle">活动的时间和地点</text>
+                        </view>
+                </view>
+        </view>
+
+
+        <view class="item" wx:if="{{index==1}}">我是1页</view>
+        <view class="item" wx:if="{{index==2}}">我是2页</view>
+</view>
+<!-- 底部按钮 -->
+<view class="base">
+        <navigator url="/pages/course/course" class="left">
+                <icon class="iconfont icon-Sign" size="22" color=""></icon>
+                <text class="" selectable="false" space="false" decode="false">我要报名</text>
+        </navigator>
+        <navigator url="/pages/my/my" class="right">
+                <icon class="iconfont icon-me" size="22" color=""></icon>
+                <text class="" selectable="false" space="false" decode="false">我的</text>
+        </navigator>
+</view>

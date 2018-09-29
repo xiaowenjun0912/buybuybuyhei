@@ -1,0 +1,52 @@
+/* pages/success/success.wxss */
+
+.top{
+    width: 750rpx;
+    height: 108rpx;
+    line-height: 108rpx;
+    background-color: #f2f2f2;
+    
+  }
+  .ten{
+    text-align: center;
+    font-size: 34rpx;
+  }
+page{
+    background-color: #fff;
+}
+.gou{
+    position: absolute;
+    top: 265rpx;
+    left: 252rpx;
+}
+.apply{
+    position: absolute;
+    top: 546rpx;
+    left: 282rpx;
+    font-size: 46rpx;
+}
+.applyInfo{
+    position: absolute;
+    top: 642rpx;
+    left: 190rpx;
+    font-size: 26rpx;
+    z-index: 5;
+}
+.mynext{
+    position: absolute;
+    bottom: 392rpx;
+    left: 15rpx;
+    width: 97%;
+    padding-left: 30rpx;
+    padding-right: 30rpx;
+    box-sizing: border-box;
+    background-color: #1abc9c;
+    color: #ffffff;
+    border-radius: 56rpx;
+    width: 570rpx;
+    left: 90rpx;
+    font-size: 18px;
+
+
+
+  }

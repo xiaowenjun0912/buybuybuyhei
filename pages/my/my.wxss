@@ -1,0 +1,163 @@
+/* pages/my/my.wxss */
+
+/* 头部 */
+.top {
+    width: 750rpx;
+    height: 128rpx;
+    line-height: 128rpx;
+    background-color: #fff;
+}
+
+.ten {
+    text-align: center;
+    font-size: 36rpx;
+}
+
+.content {
+    padding-left: 34rpx;
+    padding-right: 34rpx;
+    width: 682rpx;
+
+}
+
+.userinfo {
+    width: 690rpx;
+    height: 150rpx;
+    /* border-bottom: 1rpx solid #ccc; */
+}
+
+.mytoggle {
+    position: absolute;
+    width: 682rpx;
+    height: 78rpx;
+    left: 32rpx;
+    top: 432rpx;
+}
+
+.tab-bar {
+    /* display: flex; */
+    width: 682rpx;
+    height: 78rpx;
+    /* margin-left: 32rpx; */
+}
+
+.tab-bar .item.active {
+    /* border-bottom: 2rpx solid #17a488; */
+    background-color: #efefef;
+}
+
+.tab-bar>view {
+    float: left;
+    /* font-weight: 700; */
+    border-radius: 38rpx;
+    text-align: center;
+    font-size: 32rpx;
+    height: 78rpx;
+    line-height: 78rpx;
+    width: 218rpx;
+}
+
+/* 下面大的内容区域 */
+
+.tab-content {
+    width: 686rpx;
+    height: 640rpx;
+    /* background-color: red; */
+    position: absolute;
+    bottom: 0;
+    right: 32rpx;
+}
+
+/* 下面大的内容区域里面的第一小块横*/
+.tab-content > .item {
+    /* position: relative;
+    background-color: #f5f5f5;
+    height: 144rpx;
+    width: 686rpx; */
+}
+.goFor{
+    position: relative;
+    background-color: #f5f5f5;
+    height: 144rpx;
+    width: 686rpx;
+    margin-bottom: 18rpx;
+}
+
+.mytitle{
+    position: absolute;
+    font-size: 28rpx;
+    top: 24rpx;
+    right: 239rpx;
+}
+.smtitle{
+    position: absolute;
+    bottom: 33rpx;
+    right: 345rpx;
+    font-size: 24rpx;
+}
+.myActivitypic{
+    width: 96rpx;
+    height: 96rpx;
+    position: absolute;
+    left: 24rpx;
+    top: 24rpx;
+}
+
+/* 底部样式 */
+.base {
+    width: 750rpx;
+    height: 100rpx;
+    /* line-height: 100rpx; */
+    background-color: #fff;
+    display: flex;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    font-size: 26rpx;
+}
+
+.base>.left {
+    display: flex;
+    flex-direction: column;
+    width: 375rpx;
+    background-color: #fff;
+    color: #818181;
+    border: none;
+    text-align: center;
+    /* line-height: 150rpx; */
+}
+
+.base>.right {
+    display: flex;
+    flex-direction: column;
+    width: 375rpx;
+    background-color: #fff;
+    color: #818181;
+    color: #1abc9c;
+    border: none;
+    text-align: center;
+    /* line-height: 150rpx; */
+}
+
+page {
+    position: relative;
+    height: 100%;
+    background-color: #fff;
+}
+
+.myNumber {
+    position: absolute;
+    left: 34rpx;
+    top: 222rpx;
+    font-size: 71rpx;
+    font-weight: 700;
+}
+
+.myPic {
+    position: absolute;
+    width: 208rpx;
+    height: 208rpx;
+    top: 200rpx;
+    right: 34rpx;
+    border-radius: 50%;
+}

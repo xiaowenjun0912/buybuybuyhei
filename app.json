@@ -1,0 +1,21 @@
+{
+  "pages": [
+    "pages/dataTwo/dataTwo",
+    "pages/course/course",
+    "pages/dataOne/dataOne",
+    "pages/my/my",
+    "pages/detailtwo/detailtwo",
+    "pages/detail/detail",
+    "pages/photo/photo",
+    "pages/index/index",
+    "pages/success/success"
+  
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#f2f2f2",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  }
+
+}
